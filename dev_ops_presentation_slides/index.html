@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/webslides.css">
+    <style>
+
+      body  {
+        font-family: 'Source Sans Pro', sans-serif;
+      }
+
+      h1, h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+      }
+
+      p {
+        font-size:3rem;
+      }
+
+     
+        .smiley{
+            font-size:3rem;
+        }
+
+        .mt-2 {
+            margin-top:2rem;
+        }
+
+        
+        .pull-up{
+          margin-top:-8rem;
+        }
+
+        .pull-up-extra{
+          margin-top:-10rem!important;
+        }
+
+        .custom-height{
+          min-height: 40rem;
+        }
+
+        .mb-custom {
+          margin-bottom: 10rem;
+        }
+
+        .logo {
+          width: 30rem;
+          position:absolute;
+          top:15px;
+          left:15px;
+          margin:auto;
+          background: #fff;
+          padding:2rem;
+        }
+
+        .line-white{
+          background:#fff;
+          width:25vw;
+          height: 1rem;
+          margin: 2rem 2rem 2rem 18vw;
+        }
+
+        
+        .principle {
+          font-size:2.5rem!important;
+        }
+         
+      
+
+        @media(max-width: 900px) {
+          .line-white {
+            display:none;
+          }
+        }
+
+        
+        @media(max-width:400px) {
+          .logo {
+            display:none;
+          }
+        }
+
+        
+    </style>
+    <title>DevOps talk</title>
+</head>
+<body>
+    
+    <main role="main">
+        <article id="webslides" class="horizontal">
+            <!-- Slide 1 -->
+            <section class="bg-primary aligncenter slide current" id="section-30" style="">
+                <!--.wrap = container (width: 90%) with fadein animation -->
+                <div class="wrap">
+                  <h1>DevOps</h1>
+                  <div class="line-white"></div>
+                  <p class="subtitle"> o curiozitate integrată</p>
+                  <img src="img/cio_devops_trends.png" alt="">
+                </div>
+                <!-- .end .wrap -->
+                <span class="logo">
+                  <img src="img/logo.png" alt="">
+                </span>
+              </section>
+
+              <!-- Slide 2 -->
+              <section class="bg-black-blue aligncenter">
+         
+                <span class="background dark" style="background-image:url('img/devops2.png');"></span>
+                    <h1>Ce înseamnă DevOps?</h1>
+                    <p class="size-60 aligncenter mt-2">Termenul DevOps a apărut prima oară în 2009 la un eveniment care s-a 
+                        intitulat (surprinzător! <span class="smiley">&#128518;</span>) DevOpsdays <span class="smiley">&#128521;</span></p>
+                    <p class="size-60 aligncenter mt-2">
+                        Definițiile pentru DevOps pleacă de la ideea că echipa de dezvoltare (Dev -development) 
+                        și echipa de logistică/infrastructură (Ops - operations) trebuie să colaboreze pentru un flux de lucru optimizat și 
+                        bine integrat
+                    </p>
+                    <p class="size-60 aligncenter mt-2">
+                        DevOps urmărește să îmbunătățească nivelul de colaborare și comunicarea între echipe și
+                        să livreze un produs software foarte bun cât mai rapid și cât mai bine
+                    </p>
+                 </div>
+                 <span class="logo">
+                  <img src="img/logo.png" alt="">
+                </span>
+               </section>
+
+                <!-- Slide 3 -->
+                <section class="slide current">
+                    <div class="wrap">
+                      <img class="alignright size-50" src="img/NotDevOps.jpg" alt="iPhone">
+                      <h2>Ce NU e DevOps..</h2>
+                      <p class="mt-2">Un produs software, un proces de automatizare, sau unul de integrare</p>
+                      <p class="mt-2">Un proces de descentralizare în microservicii/containere</p>
+                    </div>
+                    <span class="logo">
+                      <img src="img/logo.png" alt="">
+                    </span>
+                </section>
+                
+                 <!-- Slide 4 -->
+                 <section class="slide current" >
+                    <div class="wrap">
+                      <br>
+                      <img class="alignleft size-50" src="img/goals.jpg" alt="iPhone">
+                      <h2>Ce își propune DevOps..</h2>
+                      <p class="mt-2">Să îmbunătățească ciclul de dezvoltare al unui produs software (SDLC)</p>
+                      <p class="mt-2">Să spargă problema în probleme mai mici</p>
+                      <p class="mt-2">Să livreze mai repede, în cicluri mai scurte și mai dese, urmând un proces iterativ care se îmbunătățește constant</p>
+                    </div>
+                    <span class="logo">
+                      <img src="img/logo.png" alt="">
+                    </span>
+                </section>
+
+                <!-- Slide 5 -->
+                <section class="slide current" style="margin-top:-2rem;">
+                    <div class="wrap">
+                      <h3 class="aligncenter">Principii Cheie DevOps</h3>
+                      <ul class="flexblock steps size-80">
+                        <li>
+                          <span>
+                            <svg class="fa-heartbeat">
+                            </svg>
+                          </span>
+                          <h2 class="pull-up principle"> Systems Thinking (abordarea ca sistem)</h2>
+                          <p>Elementele componente ale unui proces lucrează împreună într-un sistem integrat</p>
+                        </li>
+                        <li>
+                          <div class="process step-2"></div>
+                          <span>
+                            <svg class="fa-magic">
+                            </svg>
+                          </span>
+                          <h2 class="pull-up principle">Amplifying Feedback Loops (cicluri iterative amplificate)</h2>
+                          <p>Modul de lucru este unul iterativ bazat pe cicluri re-iterate succesiv</p>
+                        </li>
+                        <li class="custom-height">
+                          <div class="process step-3"></div>
+                          <span>
+                            <svg class="fa-balance-scale">
+                              
+                            </svg>
+                          </span>
+                          <h2 class="pull-up principle">Continual Experimentation and Learning (experimentăm și învățăm constant)</h2>
+                          <p>Repetăm și îmbunătățim constant ciclurile de lucru</p>
+                        </li>
+                      
+                      </ul>
+                    </div>
+                    <span class="logo">
+                      <img src="img/logo.png" alt="">
+                    </span>
+                  </section>
+
+
+                  <!-- Slide 6 -->
+                 <section  class="slide current">
+                    <div class="wrap">
+                      <img class="alignleft size-50" src="img/system.png">
+                      <h2>Systems Thinking (Sisteme)</h2>
+                      <p class="mt-2">Perspectivă holistică ce privește o problemă în ansamblul ei</p>
+                      <p class="mt-2">Organizațiile și departamentele lor funcționează ca niște sisteme</p>
+                      <p class="mt-2">Sistemele lucrează împreuna, fluid, procesând un input și producând un output</p>
+                    </div>
+                    <span class="logo">
+                      <img src="img/logo.png" alt="">
+                    </span>
+                </section>
+
+
+                 <!-- Slide 7 -->
+                 <section  class="slide current">
+                 
+                  <div class="wrap">
+                    <img class="alignright size-40" src="img/feedback.jpg">
+                    <h2 class="mt-2">Feedback Loops (Iterații) </h2>
+                    <p class="mt-2">Problemele se rezolvă iterativ, după fiecare ciclu acesta este revizuit și îmbunătățit </p>
+                    <p class="mt-2">Reiforcing Feedback Loops vs Balancing Feedback Loops</p>
+                    <p class="mt-2">Positive vs Negative Feedback Loops</p>
+                  </div>
+                  <span class="logo">
+                    <img src="img/logo.png" alt="">
+                  </span>
+                </section>
+
+                <!-- Slide 8 -->
+                <section  class="slide current">
+                  <div class="wrap">
+                    <img class="alignleft size-50" src="img/kid_scientist.jpg">
+                    <h2>Culture of Experimentation and Learning (Experiment)</h2>
+                    <p class="mt-2">Ținem complexitatea sub control</p>
+                    <p class="mt-2">Spargem problemele în probleme mai mici</p>
+                    <p class="mt-2">Testăm în permanență idei noi și învătăm din ele repede</p>
+                  </div>
+                  <span class="logo">
+                    <img src="img/logo.png" alt="">
+                  </span>
+                </section>
+
+                 <!-- Slide 9 -->
+                 <section  class="slide current" style="margin-top:-2rem;">
+                  <div class="wrap">
+                    <img class="alignright size-50" src="img/problem.png">
+                    <h2>Ce probleme rezolvă DevOps?</h2>
+                    <p class="mt-2" style="margin-top:-0.5rem;">Release Cadence (Viteza ciclurilor de producție)</p>
+                    <p class="mt-2">The overworked engineer (uzura accentuată pe un singur om)</p>
+                    <p class="mt-2">
+                      Unplanned Infrastructure Requests (cereri neprevăzute de modificare/extindere a 
+                      infrastructurii existente)
+                    </p>
+                    <p class="mt-2">
+                      Testing Phase Slowdowns  (Ineficiența procesului de testare) 
+                    </p>
+                  </div>
+                  <span class="logo">
+                    <img src="img/logo.png" alt="">
+                  </span>
+                </section>
+
+                  <!-- Slide 10 -->
+                  <section  class="slide current">
+                    <div class="wrap">
+                      <img class="alignright size-40" src="img/speed.jpg">
+                      <h2>Release Cadence (Viteza ciclurilor de producție)</h2>
+                      <p >
+                          Release la 6 luni = codebase enorm de livrat + proces de release greoi/delicat 
+                          <span class="smiley">&#128531;</span>
+                        </p>
+                      <p style="margin-top:-1rem;">Apare o problemă de securitate critică ce trebuie rezolvată 'din fugă'</p>
+                      <p style="margin-top:-1rem;">
+                        Se impune un 'hot fix' (cârpim și scăpăm) <span class="smiley">&#128513;</span>
+                        *ce se întâmplă dacă apar mai multe probleme totuși? <span class="smiley">&#128533;</span>  
+                      </p>
+                      <p style="margin-top:-1rem;">
+                        Ce propune DevOps? Un ciclu de release mai des și un codebase mai mic de livrat
+                        <span class="smiley">&#128526;</span>
+                      </p>
+                    </div>
+                    <span class="logo">
+                      <img src="img/logo.png" alt="">
+                    </span>
+                  </section>
+
+
+                   <!-- Slide 11 -->
+                   <section  class="slide current">
+                    <div class="wrap">
+                      <br>
+                      <img class="alignleft size-40" src="img/overworked.jpg">
+                      <h2> The overworked engineer (uzura accentuată pe un singur om)</h2>
+                      <p class="mt-2">
+                          Lead Developer, Infrastructure Engineer, etc...
+                          <span class="smiley">&#128531;</span>
+                        </p>
+                      <p class="mt-2">Cunoaște cel mai bine aplicațiile/sistemele (extrem de valoros)</p>
+                      <p class="mt-2">
+                         Din păcate, procesul se poate bloca dacă ajunge să depindă prea mult de un singur om 
+                      </p>
+                      <p class="mt-2">
+                        Ce propune DevOps? Responsabilități împărțite uniform, astfel ca totul să depindă de toți 
+                        și fluxul de lucru să nu se poată bloca la un singur om
+                        <span class="smiley">&#128565;</span>
+                      </p>
+                    </div>
+                    <span class="logo">
+                      <img src="img/logo.png" alt="">
+                    </span>
+                  </section>
+
+
+                    <!-- Slide 12 -->
+                    <section  class="slide current">
+                      <div class="wrap">
+                        <img class="alignright size-40" src="img/too_many_computers.jpg">
+                        <h2> Unplanned Infrastructure Requests (și mai multe servere!!)</h2>
+                        <p class="mt-2">
+                            La început procesul de creare a unui nou server era unul greoi și complex
+                            <span class="smiley">&#128531;</span>
+                          </p>
+                        <p class="mt-2">Serverele nu erau foarte numeroase, dar când au început să 'se înmulțească', 
+                          gestionarea lor a devenit difcilă
+                        </p>
+                        <p class="mt-2">
+                          Ce propune DevOps? Automatizarea tuturor proceselor redundante și descentralizarea infrastructurii
+                          în containere
+                        </p>
+                        <p class="mt-2 size-60">
+                          Un server ar trebui sa fie o insțantă comună (un index într-o listă) nu o 
+                        entitate cu nevoi speciale (un animăluț).
+                        </p>
+                      </div>
+                      <span class="logo">
+                        <img src="img/logo.png" alt="">
+                      </span>
+                    </section>
+  
+
+                    <!-- Slide 13 -->
+                    <section  class="slide current">
+                      <div class="wrap">
+                        <img class="alignleft size-40" src="img/slow.jpg">
+                        <h2>Testing Phase Slowdowns  (iar a murit la testare...)</h2>
+                        <p class="mt-2">
+                            Procesul de testare era inițial greoi (la fel ca si cel de release) 
+                            <span class="smiley">&#128555;</span>
+                          </p>
+                        <p class="mt-2">
+                          Ciclul de release greoi = codebase mare = numeroase funcționalități/buguri de testat 
+                        </p>
+                        <p class="mt-2">
+                          Ce propune DevOps? Iterații mai scurte (munca spartă în părți mai mici, ușor de gestionat) și
+                          automatizarea procesului de testare (și testerii sunt implicați aici !! <span class="smiley"> &#128512;</span> ).
+                        </p>
+                      </div>
+                      <span class="logo">
+                        <img src="img/logo.png" alt="">
+                      </span>
+                  </section>
+
+                    <!-- Slide 14 -->
+                    <section  class="slide current">
+                      <div class="wrap">
+                        <img class="aligncenter pull-up-extra" src="img/collaborate.jpg">
+                        <h2 class="aligncenter">DevOps și metodologia Agile</h2>
+                        <p class="mt-2 aligncenter">
+                            DevOps vine ca un răspuns la noile provocări din domeniu (infinit mai complexe)
+                            <span class="smiley">&#128555;</span>
+                          </p>
+                        <p class="mt-2 aligncenter">
+                          <span class="smiley">&#128519;</span> Agile vs Waterfall <span class="smiley">&#128520;</span>
+                        </p>
+                        <p class="mt-2 aligncenter">
+                           DevOps = un fel de Agile mai mic. <span class="smiley">&#128521;</span>
+                        </p>
+                      </div>
+                      <span class="logo">
+                        <img src="img/logo.png" alt="">
+                      </span>
+                    </section>
+
+
+                     <!-- Slide 15 -->
+                     <section  class="slide current">
+                      <div class="wrap">
+                        <h2 class="aligncenter mb-custom pull-up-extra">The Big Picture</h2>
+                        <img class="aligncenter pull-up-extra" src="img/poke-loop.gif">
+                      </div>
+                      <span class="logo">
+                        <img src="img/logo.png" alt="">
+                      </span>
+                    </section>  
+
+        
+
+                    <!-- Slide 16 -->
+                    <section  class="slide current">
+                      <div class="wrap">
+                        <h2 class="aligncenter mb-custom pull-up-extra">Thank you</h2>
+                        <img class="aligncenter pull-up-extra" src="img/thank_you.png">
+                      </div>
+                      <span class="logo">
+                        <img src="img/logo.png" alt="">
+                      </span>
+                    </section> 
+ 
+
+
+         
+
+
+        
+
+
+        </article>
+    </main>
+
+    <script src="js/webslides.js"></script>
+     
+    <script>
+        //init webslides
+        window.ws = new WebSlides();
+    </script>
+</body>
+</html>
